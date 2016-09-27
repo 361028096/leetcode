@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class D20160927N338CountingBits {
 	public static void main(String args[]){
 		Solution solution=new Solution();
@@ -20,6 +22,9 @@ class Solution {
     		}
     	}
     	return bits;
-    	String a 
+    }
+    
+    int test(){
+    	ArrayList<E>
     }
 }
