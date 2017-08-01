@@ -1,3 +1,5 @@
+package com.leetcode;
+
 
 /**
  * Definition for a binary tree node. 
@@ -12,7 +14,7 @@
  */
 
 public class D20161008N104MaximumDepthofBinaryTree {
-	public int maxDepth(TreeNode root) {
+	/*public int maxDepth(TreeNode root) {
 		if(root == null){
 			return 0;
 		}
@@ -21,6 +23,6 @@ public class D20161008N104MaximumDepthofBinaryTree {
 			int right = maxDepth(root.right);
 			return 1 + Math.max(left, right);
 		}
-	}
+	}*/
 
 }

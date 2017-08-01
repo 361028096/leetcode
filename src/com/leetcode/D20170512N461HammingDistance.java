@@ -1,3 +1,5 @@
+package com.leetcode;
+
 
 public class D20170512N461HammingDistance {
 	public int hummingDistance(int x, int y) {

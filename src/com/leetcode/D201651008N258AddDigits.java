@@ -1,3 +1,5 @@
+package com.leetcode;
+
 public class D201651008N258AddDigits {
 	public int addDigits(int num) {
 		int result = 0;

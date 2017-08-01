@@ -1,3 +1,5 @@
+package com.leetcode;
+
 
 public class D20161008N389FindtheDifference {
     public char findTheDifference(String s, String t) {

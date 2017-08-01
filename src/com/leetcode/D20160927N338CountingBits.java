@@ -1,3 +1,5 @@
+package com.leetcode;
+
 
 public class D20160927N338CountingBits {
 	public static void main(String args[]){
