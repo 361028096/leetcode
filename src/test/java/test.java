@@ -6,13 +6,16 @@ import org.junit.Test;
  * @date : 2018/4/17
  */
 public class test {
+
+    public static void main(String[] args) {
+
+    }
+
     @Test
-    public void testString() {
-        String s = "aaaaa";
-        System.out.println(s);
-//        for(char c: s) {
-//            System.out.println(c);
-//        }
+    public Integer testString() {
+
+        return 1;
+
     }
 
 }
