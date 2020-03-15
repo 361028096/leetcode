@@ -5,7 +5,6 @@ package com.leetcode;
     请找出这两个有序数组的中位数。要求算法的时间复杂度为 O(log (m+n)) 。
  */
 
-import com.google.common.primitives.Ints;
 import org.junit.Test;
 
 import java.util.ArrayList;
