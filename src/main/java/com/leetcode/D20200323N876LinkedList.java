@@ -40,7 +40,7 @@ import org.junit.Test;
  * 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
  * 内存消耗 :36.9 MB, 在所有 Java 提交中击败了5.05%的用户s
  *
- * @author wei.he
+ *
  * @date 2020/3/23 10:15
  */
 public class D20200323N876LinkedList {

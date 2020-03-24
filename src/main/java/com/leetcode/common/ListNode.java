@@ -3,7 +3,7 @@ package com.leetcode.common;
 /**
  * TODO description
  *
- * @author hewei
+ *
  * @date 2018/10/30
  */
 public class ListNode {

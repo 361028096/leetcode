@@ -49,7 +49,7 @@ package com.leetcode;
  * ---
  * 解答成功: 执行耗时:0 ms,击败了100.00% 的Java用户 内存消耗:37.1 MB,击败了100.00% 的Java用户
  *
- * @author wei.he
+ *
  * @date 2020/3/24 09:39
  */
 public class D20200324MN1716Massage {

@@ -3,7 +3,7 @@ package com.leetcode;
 /**
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
- * @author hewei
+ *
  * @date 2019/4/19 23:26
  */
 public class LeetCode_83_53 {

@@ -34,7 +34,7 @@ import org.junit.Test;
  * // 注意: 给定的矩阵grid 的长度和宽度都不超过 50。
  * // Related Topics 深度优先搜索 数组
  *
- * @author hewei
+ *
  * @date 2020/3/15 21:14
  */
 public class D20200315Island {

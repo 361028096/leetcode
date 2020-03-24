@@ -3,7 +3,7 @@ package com.leetcode;
 import org.junit.Test;
 
 /**
- * @author : hewei
+ *
  * @description: TODO
  * @date : 2018/4/19
  */

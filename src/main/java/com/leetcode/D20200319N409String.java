@@ -40,7 +40,7 @@ import java.util.*;
  * ---
  * 解答成功: 执行耗时:2 ms,击败了76.48% 的Java用户 内存消耗:37.9 MB,击败了5.25% 的Java用户
  *
- * @author wei.he
+ *
  * @date 2020/3/19 08:22
  */
 public class D20200319N409String {

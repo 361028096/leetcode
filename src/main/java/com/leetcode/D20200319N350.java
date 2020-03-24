@@ -38,7 +38,7 @@ import java.util.Arrays;
  * // Related Topics 排序 哈希表 双指针 二分查找
  * 执行耗时:3 ms,击败了79.46% 的Java用户 内存消耗:39.4 MB,击败了5.11% 的Java用户
  *
- * @author wei.he
+ *
  * @date 2020/3/19 22:56
  */
 public class D20200319N350 {

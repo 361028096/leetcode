@@ -30,7 +30,7 @@ import org.junit.Test;
  * // 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231, 231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。
  * // Related Topics 数学
  *
- * @author wei.he
+ *
  * @date 2020/3/18 11:32
  */
 public class D20200318N7IntegerInversion {

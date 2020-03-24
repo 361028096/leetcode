@@ -64,7 +64,7 @@ import org.junit.Test;
  * //输出: false
  * // Related Topics 字符串 动态规划 回溯算法
  *
- * @author wei.he
+ *
  * @date 2020/3/23 13:29
  */
 public class D20200323N10Match {

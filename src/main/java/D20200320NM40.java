@@ -34,7 +34,7 @@ import java.util.jar.JarEntry;
  * //
  * // Related Topics 堆 分治算法
  *
- * @author wei.he
+ *
  * @date 2020/3/20 09:57
  */
 public class D20200320NM40 {

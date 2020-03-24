@@ -2,7 +2,7 @@ package com.lintcode;
 
 /**
  * 单例模式
- * @author Administrator
+ * Administrator
  *
  */
 public class D20170801N204Single {

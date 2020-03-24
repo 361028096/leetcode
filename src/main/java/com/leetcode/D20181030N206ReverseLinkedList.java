@@ -5,7 +5,7 @@ import com.leetcode.common.ListNode;
 /**
  * Reverse a singly linked list.
  *
- * @author hewei
+ *
  * @date 2018/10/30
  */
 public class D20181030N206ReverseLinkedList {

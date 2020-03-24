@@ -5,7 +5,7 @@ import com.leetcode.common.ListNode;
 /**
  * Given a linked list, swap every two adjacent nodes and return its head.
  *
- * @author hewei
+ *
  * @date 2018/10/31
  */
 public class D20181031N24SwapsNodesInPairs {

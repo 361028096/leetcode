@@ -3,7 +3,7 @@ package com.leetcode;
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/
  *
- * @author hewei
+ *
  * @date 2019/4/19 23:48
  */
 public class LeetCode_21_53 {

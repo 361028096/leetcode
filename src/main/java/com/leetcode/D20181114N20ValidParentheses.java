@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * TODO description
  *
- * @author hewei
+ *
  * @date 2018/11/14
  */
 public class D20181114N20ValidParentheses {
