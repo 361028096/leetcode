@@ -52,7 +52,7 @@ import org.junit.Test;
  * 			执行耗时:1 ms,击败了99.79% 的Java用户
  * 			内存消耗:40.9 MB,击败了28.80% 的Java用户
  *
- * @author wei.he
+ *
  * @date 2020/3/19 15:44
  */
 public class D20200319N26Delete {

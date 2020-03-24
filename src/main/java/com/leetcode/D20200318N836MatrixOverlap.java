@@ -31,7 +31,7 @@ import org.junit.Test;
  * //
  * // Related Topics 数学
  *
- * @author wei.he
+ *
  * @date 2020/3/18 10:09
  */
 public class D20200318N836MatrixOverlap {

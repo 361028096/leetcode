@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * TODO
  *
- * @author hewei
+ *
  * @date 2019/4/21 12:03
  */
 public class LeetCode_24 {
