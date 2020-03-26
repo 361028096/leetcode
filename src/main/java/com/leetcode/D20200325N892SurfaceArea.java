@@ -77,6 +77,7 @@ public class D20200325N892SurfaceArea {
 
     @Test
     public void test() {
+        StringBuilder s = new StringBuilder();
         int area = 1;
         int i = -1;
         area -= i>0? 5:1;
