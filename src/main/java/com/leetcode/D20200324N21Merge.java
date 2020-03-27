@@ -1,6 +1,8 @@
 package com.leetcode;
 
 import com.leetcode.common.ListNode;
+import org.junit.Test;
+import org.junit.runner.notification.RunListener;
 
 /**
  * // [21]合并两个有序链表
@@ -51,6 +53,25 @@ public class D20200324N21Merge {
         prev.next = l1 == null ? l2 : l1;
 
         return prehead.next;
+    }
+
+    @Test
+    public void test() {
+        String str  = "";
+        str = testReturn();
+        System.out.println(str);
+    }
+
+    private String testReturn() {
+        try {
+            System.out.println("start");
+            throw new Exception("aa");
+        } catch (Exception e){
+            return "a";
+        } finally {
+//            return "b";
+            System.out.println("finally");
+        }
     }
 
 
