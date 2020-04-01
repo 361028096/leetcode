@@ -50,7 +50,7 @@ import java.util.Queue;
 public class D20200329N1162land {
     public int maxDistance(int[][] grid) {
         int[] dx = {0, 0, 1, -1};
-        int[] dy = [1,-1, 0, 0];
+        int[] dy = {1,-1, 0, 0};
 
         Queue<int[]> queue = new ArrayDeque<>();
         int m = grid.length, n = grid[0].length;
