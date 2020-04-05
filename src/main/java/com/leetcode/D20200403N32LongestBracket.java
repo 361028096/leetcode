@@ -26,7 +26,6 @@ import java.util.Stack;
  *
  * // 难点在于怎么判断是最长的，如何判断它中间是否是连续的
  *
- * @author wei.he
  * @date 2020/4/3 09:29
  */
 public class D20200403N32LongestBracket {
@@ -34,38 +33,54 @@ public class D20200403N32LongestBracket {
     public static final char rightBracket = ')';
 
     public int longestValidParentheses(String s) {
-        int num = 0;
-        if(s == null || s.length() == 0) {
-            return num;
-        }
-        char[] chars = s.toCharArray();
-        Stack stack = new Stack();
-        boolean isContinue = true;
-        for (char c : chars) {
-            if (!isContinue) {
-                num = 0;
-                stack.clear();
-            }
-            if (c == rightBracket) {
-                if (stack.isEmpty()) {
-                    isContinue = false;
-                    continue;
-                } else {
-                    isContinue = true;
-                    num = num+2;
-                    stack.pop();
-                    continue;
+        int maxans = 0;
+        int dp[] = new int[s.length()];
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == rightBracket) {
+                if (s.charAt(i-1) == leftBracket) {
+                    dp[i] = (i >= 2 ? dp[i-2] : 0) + 2;
+                } else if (i - dp[i-1] > 0 && s.charAt(i-dp[i-1]-1) == leftBracket) {
+                    dp[i] = dp[i-1] + ((i - dp[i-1]) >= 2 ? dp[i-dp[i-1]-2] : 0) + 2;
                 }
-            }
-
-            if (c == leftBracket) {
-                isContinue = true;
-                stack.push(leftBracket);
-                continue;
+                maxans = Math.max(maxans,dp[i]);
             }
         }
-        return num;
+        return maxans;
     }
+
+//    public int longestValidParentheses(String s) {
+//        int num = 0;
+//        if(s == null || s.length() == 0) {
+//            return num;
+//        }
+//        char[] chars = s.toCharArray();
+//        Stack stack = new Stack();
+//        boolean isContinue = true;
+//        for (char c : chars) {
+//            if (!isContinue) {
+//                num = 0;
+//                stack.clear();
+//            }
+//            if (c == rightBracket) {
+//                if (stack.isEmpty()) {
+//                    isContinue = false;
+//                    continue;
+//                } else {
+//                    isContinue = true;
+//                    num = num+2;
+//                    stack.pop();
+//                    continue;
+//                }
+//            }
+//
+//            if (c == leftBracket) {
+//                isContinue = true;
+//                stack.push(leftBracket);
+//                continue;
+//            }
+//        }
+//        return num;
+//    }
 
     @Test
     public void testStack() {

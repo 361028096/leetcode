@@ -75,7 +75,6 @@ import org.junit.Test;
  * //
  * // Related Topics 贪心算法 二分查找
  *
- * @author wei.he
  * @date 2020/4/1 13:39
  */
 public class D20200401N1111Bracket {

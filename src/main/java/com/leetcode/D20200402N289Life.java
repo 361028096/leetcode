@@ -52,7 +52,6 @@ import java.util.Arrays;
  * //
  * // Related Topics 数组
  *
- * @author wei.he
  * @date 2020/4/2 09:50
  */
 public class D20200402N289Life {
