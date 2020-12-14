@@ -38,6 +38,20 @@ public class D20201214N49LetterGrouping {
 
         return resultList;
     }
+    public List<List<String>> groupAnagrams2(String[] strs) {
+        Map<String,List<String>> resultMap = new HashMap<>();
+        for (String str:strs) {
+            char[] strChar = str.toCharArray();
+            Arrays.sort(strChar);
+            String key = new String(strChar);
+
+            List<String> history = resultMap.getOrDefault(key,new ArrayList<>());
+            history.add(str);
+            resultMap.put(key,history);
+
+        }
+        return new ArrayList<List<String>>(resultMap.values());
+    }
 
     // ["eat","tea","tan","ate","nat","bat"]
     // ["eat","tea","tan","ate","nat","bat"]
