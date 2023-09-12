@@ -1,0 +1,23 @@
+class SmallestInfiniteSet {
+    boolean[] flag = new boolean[1001];
+    PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+    int n = 1, remain = 0; // remain 为 n 之前存在的值个数
+    public SmallestInfiniteSet() {
+    }
+
+    public int popSmallest() {
+        if (remain == 0) return n++;
+        int res = pq.poll();
+        flag[res] = false;
+        remain--;
+        return res;
+    }
+
+    public void addBack(int num) {
+        if (num < n && !flag[num]) {
+            flag[num] = true;
+            pq.add(num);
+            remain++;
+        }
+    }
+}
